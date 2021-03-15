@@ -74,7 +74,7 @@ int main() {
 
   // Social media
   center
-    ->addChild(new Tag("p", R"(<a href="https://twitter.com/cpp_mx">Twitter</a> / <a href="https://discord.gg/t53X2e8Mrz">Discord</a> / <a href="https://github.com/cppmexico">Github</a>)"));
+    ->addChild(new Tag("p", R"(<a href="https://twitter.com/cpp_mx">Twitter</a> / <a href="https://discord.gg/t53X2e8Mrz">Discord</a> / <a href="https://github.com/cppmexico">Github</a> / <a href="https://www.twitch.tv/cppmexico">Twitch</a>)"));
 
   // Print generated html to stdout
   html.show();
