@@ -1,0 +1,17 @@
+main {
+  padding-bottom: 10px;
+}
+
+main a {
+  color: #006eff;
+}
+
+main a:hover {
+  background-color: #006eff;
+  color: #fff;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #afafaf;
+}
