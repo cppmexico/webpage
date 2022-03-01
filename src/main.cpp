@@ -75,7 +75,11 @@ int main() {
   // Social media
   center
     ->addChild(new Tag("p", R"(<a href="https://twitter.com/cpp_mx">Twitter</a> / <a href="https://discord.gg/t53X2e8Mrz">Discord</a> / <a href="https://github.com/cppmexico">Github</a> / <a href="https://www.twitch.tv/cppmexico">Twitch</a>)"));
-
+  
+  // #standwithukraine banner
+  center
+    ->addChild(new Tag("p", R"(<a href="https://donate.redcrossredcrescent.org/ua/donate/~my-donation" target="_blank" rel="noreferrer noopener"> 💙 #standwithukraine 💛</a>)"));
+    
   // Print generated html to stdout
   html.show();
 }
