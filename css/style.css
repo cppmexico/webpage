@@ -15,3 +15,10 @@ hr {
   border: 0;
   border-top: 1px solid #afafaf;
 }
+
+.site-footer {
+  margin-top: 2em;
+  font-size: 8pt;
+  text-align: center;
+  color: #666;
+}
