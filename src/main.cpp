@@ -73,6 +73,10 @@ int main() {
     ->addChild(new Tag("p", R"(<a href="https://twitter.com/cpp_mx">Twitter</a> / <a href="https://discord.gg/t53X2e8Mrz">Discord</a> / <a href="https://github.com/cppmexico">GitHub</a> / <a href="https://www.twitch.tv/cppmexico">Twitch</a>)"))
       ->addAttr("class", "links");
 
+  auto footer = body->addChild(new Tag("footer"));
+  footer->addAttr("class", "site-footer");
+  footer->addChild(new Tag("p", R"(This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/.)"));
+
   // Print generated html to stdout
   cout << "<!DOCTYPE html>" << endl;
   html.show();
