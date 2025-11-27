@@ -1,24 +1,65 @@
+:root {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+body {
+  margin: 1em auto;
+  max-width: 1000px;
+}
+
+header {
+  padding-top: 10px;
+  text-align: center;
+}
+
+header strong {
+  font-size: 26pt;
+  font-weight: normal;
+  color: #000;
+}
+
 main {
   padding-bottom: 10px;
 }
 
-main a {
-  color: #006eff;
+/* main content */
+
+.hero {
+  text-align: center;
+  margin-top: 1em;
 }
 
-main a:hover {
+.hero img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5em;
+}
+
+.hero p {
+  margin: 0.3em 0;
+}
+
+/* links */
+
+.links a {
+  color: #006eff;
+  text-decoration: none;
+}
+
+.links a:hover {
   background-color: #006eff;
   color: #fff;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #afafaf;
-}
+/* footer */
 
 .site-footer {
   margin-top: 2em;
-  font-size: 8pt;
   text-align: center;
+  font-size: 8pt;
   color: #666;
 }
+
